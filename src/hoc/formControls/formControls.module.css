@@ -1,0 +1,53 @@
+.error {
+    border: 2px solid red;
+}
+.forControl {
+    position: relative;
+}
+.errorMessage {
+    color: red;
+}
+
+.loginError {
+    color: red;
+    padding: 5px 10px;
+}
+.loginForm {
+    margin: 30px auto;
+}
+label.tab {
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px;
+    display: inline-block;
+}
+label.tab.active {
+    background: #fff;
+    color: #1b5f75;
+}
+
+.submit_button {
+    width: 100%;
+    max-width: 175px;
+    background-color: #385980;
+    border-radius: 12px;
+    border: 0;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+    color: azure;
+  }
+.submit_button:hover {
+    background-color: #8398a7;
+    border-radius: 5px;
+}
+.form_field {
+    border-radius: 3px;
+    padding: 7px;
+    border: 0;
+    background-color: #adb3b8;
+}
